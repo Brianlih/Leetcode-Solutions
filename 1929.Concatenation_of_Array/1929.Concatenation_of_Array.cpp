@@ -8,10 +8,6 @@ public:
         int length = nums.size();
         for (int i = 0; i < length; i++) {
             nums.insert(nums.end(), nums.begin(), nums.end() - 1);
-            for (int j = 0; j < nums.size(); j++) {
-                cout << nums[j];
-            }
-            cout << endl;
         }
 
         return nums;
